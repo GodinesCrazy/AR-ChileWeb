@@ -1,6 +1,12 @@
 {
   "name": "hidden-river-0bb0",
   "compatibility_date": "2026-10-18",
+  "routes": [
+    {
+      "pattern": "ar-chile.cl/chatgpt/*",
+      "zone_name": "ar-chile.cl"
+    }
+  ],
   "assets": {
     "directory": "./sitio",
     "html_handling": "auto-trailing-slash",
