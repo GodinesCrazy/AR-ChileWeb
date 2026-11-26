@@ -9,3 +9,14 @@
 
 /* Navegación ampliada para dos líneas de servicio */
 @media(min-width:851px) and (max-width:1150px){.nav-toggle{display:flex}.nav-menu{display:none;position:absolute;top:100%;left:0;right:0;background:#102c44;flex-direction:column;align-items:stretch;padding:15px 22px 22px;gap:0;box-shadow:0 12px 20px #06172640}.nav-menu.is-open{display:flex}.nav-menu a{font-size:1rem;padding:12px;border-bottom:1px solid #284b60}.nav-menu .nav-cta,.nav-menu .nav-workspace{text-align:center;margin-top:10px}}
+
+/* Corporate service gateway: equal, distinct service entrances */
+.gateway-hero{background:#0c2238;color:#fff;padding:68px 0 108px;text-align:center}
+.gateway-hero h1{font-size:clamp(2.1rem,4.4vw,3.6rem);line-height:1.15;max-width:880px;margin:14px auto 20px;color:#fff}
+.gateway-hero h1 em{font-style:normal;color:#d7c08b}.gateway-hero .lead{max-width:690px;margin:0 auto;color:#d4e2ea}
+.gateway-section{background:#f4f7f9;padding:0 0 68px}.gateway-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;position:relative;margin-top:-48px}
+.gateway-card{--accent:#86652c;--tint:#f6efe0;background:#fff;border:1px solid #dbe4e9;border-top:5px solid var(--accent);border-radius:20px;padding:32px;display:flex;flex-direction:column;box-shadow:0 14px 40px #0c223812;min-width:0}
+.gateway-ai{--accent:#11685a;--tint:#e3f3ee}.gateway-icon{display:grid;place-items:center;width:60px;height:60px;border-radius:16px;background:var(--tint);color:var(--accent);margin-bottom:19px}.gateway-icon svg{width:36px;height:36px}
+.gateway-kicker{font-size:.76rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin:0 0 8px}
+.gateway-card h2{font-size:clamp(1.55rem,2.6vw,2rem);line-height:1.2;margin:0 0 15px}.gateway-card p:not(.gateway-kicker){color:#496174;line-height:1.6}.gateway-card ul{padding-left:20px;margin:6px 0 26px;line-height:1.7;flex:1}.gateway-btn{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--accent);color:#fff;text-decoration:none;font-weight:750;padding:15px 18px;border-radius:10px;line-height:1.35}.gateway-btn:hover{filter:brightness(.9);color:#fff}.gateway-secondary{color:#28485b;font-size:.86rem;font-weight:650;margin-top:16px;text-decoration:underline}.gateway-card a:focus-visible{outline:3px solid #0c2238;outline-offset:4px}
+@media(max-width:760px){.gateway-grid{grid-template-columns:1fr;gap:18px}.gateway-hero{padding:54px 0 93px}.gateway-card{padding:24px}.gateway-section{padding-bottom:45px}}
