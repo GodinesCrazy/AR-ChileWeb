@@ -6,3 +6,6 @@
 .nav-menu .nav-workspace{display:inline-flex;align-items:center;justify-content:center;border:1px solid rgba(215,192,139,.65);border-radius:999px;padding:10px 13px;color:var(--gold);font-weight:750;text-align:center}
 .nav-menu .nav-workspace:hover{border-color:var(--gold);color:#fff;background:rgba(255,255,255,.08)}
 @media(max-width:850px){.nav-menu .nav-workspace{margin-top:10px;padding:12px;text-align:center}}
+
+/* Navegación ampliada para dos líneas de servicio */
+@media(min-width:851px) and (max-width:1150px){.nav-toggle{display:flex}.nav-menu{display:none;position:absolute;top:100%;left:0;right:0;background:#102c44;flex-direction:column;align-items:stretch;padding:15px 22px 22px;gap:0;box-shadow:0 12px 20px #06172640}.nav-menu.is-open{display:flex}.nav-menu a{font-size:1rem;padding:12px;border-bottom:1px solid #284b60}.nav-menu .nav-cta,.nav-menu .nav-workspace{text-align:center;margin-top:10px}}
